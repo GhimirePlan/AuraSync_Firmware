@@ -1,0 +1,8 @@
+1. Verify your ESP32-S3 pin mapping and INMP441 L/R is connected to GND.
+2. Install ESP32 core 3.x and TensorFlowLite_ESP32.
+3. Select ESP32S3 Dev Module; enable PSRAM; choose a partition with enough app space.
+4. Compile and upload AuraSync_ESP32S3_INT8.ino.
+5. Open Serial Monitor at 115200 and confirm no MIC_ERROR/model allocation error.
+6. Connect to AuraSync-INT8 / AuraSync2026 and open http://192.168.4.1.
+7. Calibrate MIC_DBFS_TO_SPL using a reference meter before formal evaluation.
+8. For a demonstration, test quiet background, speech, continuous non-speech sound, and one short clap.
