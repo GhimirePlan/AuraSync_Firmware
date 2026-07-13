@@ -1,0 +1,41 @@
+{
+  "project": "AuraSync_AS_Final_3Class_HighAccuracy_INT8",
+  "model_version": "2.0.0",
+  "repository_url": "https://github.com/GhimirePlan/AS_Final_Dataset_.git",
+  "repository_commit": "f68c273f7ffdf79bb8750ff54e6c7280790b3d01",
+  "classes": [
+    "stationary_background",
+    "speech_dominant",
+    "non_speech_activity"
+  ],
+  "dataset_counts": {
+    "test/non_speech_activity": 949,
+    "test/speech_dominant": 512,
+    "test/stationary_background": 415,
+    "train/non_speech_activity": 4426,
+    "train/speech_dominant": 2388,
+    "train/stationary_background": 1936,
+    "validation/non_speech_activity": 913,
+    "validation/speech_dominant": 512,
+    "validation/stationary_background": 415
+  },
+  "teacher_test_accuracy": 0.9605543710021321,
+  "teacher_test_macro_f1": 0.9576045413046613,
+  "float_test_accuracy": 0.8976545842217484,
+  "float_test_balanced_accuracy": 0.884983830210198,
+  "float_test_macro_f1": 0.8889932055441391,
+  "int8_test_accuracy": 0.8981876332622601,
+  "int8_test_balanced_accuracy": 0.886086837801681,
+  "int8_test_macro_f1": 0.8894624237742293,
+  "quantization_accuracy_drop": -0.0005330490405117683,
+  "int8_model_size_bytes": 77384,
+  "live_confidence_threshold": 0.34,
+  "deployment_gate": {
+    "float_accuracy_pass": true,
+    "int8_accuracy_pass": true,
+    "int8_macro_f1_pass": true,
+    "quantization_drop_pass": true
+  },
+  "deployment_status": "APPROVED_FOR_PROTOTYPE",
+  "cnn_labels_exclude_loud_and_spike": true
+}

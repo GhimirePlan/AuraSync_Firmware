@@ -1,0 +1,2 @@
+file,windows,prediction,confidence,threshold,float_stationary_background,float_speech_dominant,float_non_speech_activity,int8_stationary_background,int8_speech_dominant,int8_non_speech_activity
+aurasync_live_recording.wav,4,speech_dominant,0.94716477394104,0.34,0.03020065277814865,0.9458327293395996,0.0239665936678648,0.030442314222455025,0.94716477394104,0.02239297330379486
